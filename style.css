@@ -238,3 +238,50 @@ p{
     padding-bottom: 7px;
     font-size: 25px;
 }
+#banner span{
+    color: red;
+    font-size: 30px;
+}
+#banner button{
+   margin-top: 10px; 
+   height: 40px;
+   width: 15%;
+   font-size: 20px;
+   font-weight: 600;
+}
+#banner button:hover{
+   background-color:#088178;
+   color: #fff;
+   cursor: pointer;
+   border: none;
+   transition: 0.2s;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("./banner/b16.jpg");
+    min-width: 560px; 
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+   padding: 30px;
+}
+.banner-box h4 {
+   color: #fff;
+   font-size: 20px;
+   font-weight: 500;
+   padding-bottom: 10px;
+}
+.banner-box h2{
+    color: #fff;
+   font-size: 30px;
+   font-weight: 700;
+   padding-bottom: 10px;
+}
