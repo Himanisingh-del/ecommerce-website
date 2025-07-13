@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ecommerce website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
             <li><a href="shop.html">Shop</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#contact" onclick="cd()" id="line">Contact</a></li>
             <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
         </ul>
     </div> 
@@ -198,6 +198,23 @@
         <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
     </div>
 
+    <div class="pro">
+     <img src="product/f9.jpg" alt="">
+     <div class="des">
+        <span>Amazon</span>
+        <h5>DEELOM Men's Casual Button Down Long Sleeve Linen Shirt</h5>
+     <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+     </div>
+     <h4>₹300</h4>
+     </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+    </div>
+
     </div>    
   </section>
 
@@ -212,7 +229,7 @@
     <p>Summer Collection New Modern Design</p>
     <div class="pro-container">
     <div class="pro">
-     <img src="product/f1.jpg" alt="" >
+     <img src="product/f9 (2).jpg" alt="" >
      <div class="des">
         <span>Amazon</span>
         <h5>DEELOM Men's Casual Button Down Long Sleeve Linen Shirt</h5>
@@ -229,7 +246,7 @@
     </div>
 
     <div class="pro">
-     <img src="product/f2.jpg" alt="" >
+     <img src="product/f9 (3).jpg" alt="" >
      <div class="des">
         <span>Amazon</span>
         <h5>DEELOM Men's Casual Button Down Long Sleeve Linen Shirt</h5>
@@ -246,7 +263,7 @@
     </div>
 
     <div class="pro">
-     <img src="product/f3.jpg" alt="">
+     <img src="product/f9 (4).jpg" alt="">
      <div class="des">
         <span>Amazon</span>
         <h5>DEELOM Men's Casual Button Down Long Sleeve Linen Shirt</h5>
@@ -263,7 +280,7 @@
     </div>
 
     <div class="pro">
-     <img src="product/f4.jpg" alt="" >
+     <img src="product/f9 (5).jpg" alt="" >
      <div class="des">
         <span>Amazon</span>
         <h5>DEELOM Men's Casual Button Down Long Sleeve Linen Shirt</h5>
@@ -280,7 +297,7 @@
     </div>
 
     <div class="pro">
-     <img src="product/f5.jpg" alt="">
+     <img src="product/f9 (6).jpg" alt="">
      <div class="des">
         <span>Amazon</span>
         <h5>DEELOM Men's Casual Button Down Long Sleeve Linen Shirt</h5>
@@ -297,7 +314,7 @@
     </div>
 
     <div class="pro">
-     <img src="product/f6.jpg" alt="" >
+     <img src="product/f9 (1).jpg" alt="" >
      <div class="des">
         <span>Amazon</span>
         <h5>DEELOM Men's Casual Button Down Long Sleeve Linen Shirt</h5>
@@ -319,18 +336,96 @@
   <div class="banner-box">
    <h4>crazy deals</h4>
    <h2>buy 1 get 1 free</h2>
-   <span style="color: #fff ;">the best classic dress is on sale at cartify</span>
-   <button>Learn More</button>
-   
-  </div>
-  <!-- <div class="banner-box">
-   <h4>crazy deals</h4>
-   <h2>buy 1 get 1 free</h2>
    <span>the best classic dress is on sale at cartify</span>
    <button>Learn More</button>
+   </div>
+
+  <div class="banner-box" id="do">
+   <h4>Spring/Summer</h4>
+   <h2>upcoming season</h2>
+   <span style="color: #fff ;width:340px ;">The best classic dress is on sale of care</span>
+   <button>Collection</button>
    
-  </div> -->
+  </div>
   </section>
+
+  <section id="banner3">
+<div class="banner-box">
+   <h2>SEASONAL SALES</h2>
+   <h3>WINTER COLLECTION -50% OFF</h3>
+  </div>
+  <div class="banner-box" id="d1">
+   <h2>T-SHIRTS</h2>
+   <h3>Spring/Summer 2025</h3>
+  </div>
+  <div class="banner-box" id="d3"></div>
+  </section>
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Newsletter</h4>
+      <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+    <div class="form">
+      <input type="text " placeholder="your e-mail address">
+      <button >Sign Up</button>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-section">
+                <img scr="logo.jpg" class="logo" alt="">
+      <h3>Contact</h3>
+      <p><strong>Address:</strong>Sanjay Colony sec 23,faridabad</p>
+      <p><strong>Phone:</strong>+91 1345678955</p>
+      <p><strong>Hours:</strong>10:00AM - 9:00PM , Mon - Sat</p>
+      <div class="follow">
+         <h4>FOLLOW US</h4>
+         <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-youtube"></i>
+         </div>
+      </div>
+            </div>
+            <div class="footer-section1">
+                <h5>About</h5>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div  class="footer-section3">
+                <h5>My Account</h5>
+                <ul>
+                    <li>Sign In </li>
+                    <li>View Cart </li>
+                    <li>My Wishlit</li>
+                    <li>Track My Order </li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <div  class="footer-section4">
+                <h5>Install AppMy Account</h5>
+                <p>From App Store or Google Play</p>
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="100" alt="App Store">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" width="100" alt="Google Play">
+            <p>Secured Payment Gateways</p>
+             <img src="https://i.ibb.co/Qfvn4z6/payment.png" width="200" alt="Payments">
+            </div>
+        </div>
+       </div>
+        <div class="copyright">
+            <p>&copy; 2025 Cartify Collective. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
